@@ -2,7 +2,7 @@ import { useTheme } from "@react-navigation/native";
 import { twitchApi, useTwitchApi } from "@services/api/twitch";
 import React from "react";
 import { ActivityIndicator, FlatList } from "react-native";
-import { useQueries, useQuery } from "react-query";
+import { useQueries } from "react-query";
 import { openUrl } from "shared/libs/openUrl";
 import styled from "styled-components/native";
 /**

@@ -6,7 +6,7 @@ import styled from "styled-components/native";
  * ? Local Imports
  */
 // import { subcontents } from "./mock";
-import { Title, Subtitle, Text, Subtext } from "../../shared/components/styled";
+import { Title, Subtitle } from "../../shared/components/styled";
 import { stores } from "./mock";
 import fonts from "@fonts";
 

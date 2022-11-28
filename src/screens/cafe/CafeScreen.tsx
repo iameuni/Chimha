@@ -1,4 +1,6 @@
-import React, { useState, useRef, useEffect, useCallback } from "react";
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useState, useRef, useEffect } from "react";
 import {
   Linking,
   ScrollView,

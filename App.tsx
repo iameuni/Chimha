@@ -1,9 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "react-native-gesture-handler";
 import React from "react";
 import { StatusBar, useColorScheme, LogBox } from "react-native";
 import SplashScreen from "react-native-splash-screen";
 import { createStore, applyMiddleware, compose, combineReducers } from "redux";
-import { Provider, useDispatch } from "react-redux";
+import { Provider } from "react-redux";
 import logger from "redux-logger";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { QueryClient, QueryClientProvider } from "react-query";

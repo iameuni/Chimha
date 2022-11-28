@@ -87,5 +87,6 @@
     "prepare": "husky install",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
-  }
+  },
+  "resolutions": { "@types/react": "17.0.43" }
 }
