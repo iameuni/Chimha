@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* chimhaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* chimhaTests.m */; };
 		06B5984AC21C434CA346C9B0 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71970DD0B9044E798691A57 /* NotoSansKR-Medium.otf */; };
+		09D5A2CB7881EC545DCD9A60 /* libPods-chimha-chimhaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42B638CD3802E6D0EA588D7 /* libPods-chimha-chimhaTests.a */; };
 		0A1D1EE83BF445A7A29831CE /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5B520FE75542A18E90D841 /* NotoSansKR-Light.otf */; };
 		0A83926CC92147BC8A8369DC /* TMONBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D3B95C02F943B4804E284B /* TMONBlack.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -30,6 +31,7 @@
 		5BC32D975DC7426A869A945E /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CEFC710EF5C45659FE6ED51 /* Montserrat-MediumItalic.ttf */; };
 		61F9B68347694ECAA0AA8AD5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C00D1E65F0F44BCA3B2ABC5 /* Montserrat-Light.ttf */; };
 		630EA4DC4D3A46E8A462C178 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A1B843B4B474CCEAB71FBF8 /* NotoSansKR-Bold.otf */; };
+		69A1C40F6C32CD7F978AF469 /* libPods-chimha.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F3AFED1C55F6488A027960 /* libPods-chimha.a */; };
 		6A4DEA2074A944BA97072441 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D2127D994BC485A9161C01C /* Montserrat-LightItalic.ttf */; };
 		6D19EAD14EC746AAAAFC1F4E /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B24692095B9343F6BE0579D0 /* Montserrat-Italic.ttf */; };
 		732FBDB9C6FC482B86A3B422 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C300FA60C440E98847872 /* NotoSansKR-Black.otf */; };
@@ -37,10 +39,8 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83B5307E59C04595886F461B /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D32DD8CC06C45D6B219BEDC /* Montserrat-ExtraBold.ttf */; };
 		9A596D9A1698437B84C3C4A1 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5782B40A6D4E4D06ABEF6D67 /* Montserrat-BlackItalic.ttf */; };
-		9CB56DC0DA46BA916A805635 /* libPods-chimha.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E35DF7BAE771E2DE91481ADE /* libPods-chimha.a */; };
 		AB4EF831FE144F54BDBCDE2E /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA6B6386D8574541A89158AC /* NotoSansKR-Thin.otf */; };
 		B73C81DB44264FC4985586F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3AAA94529FA40F2B3CBAE18 /* Montserrat-Bold.ttf */; };
-		B9AFD78E7A8E3B5CC00C5345 /* libPods-chimha-chimhaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 297AA655F9C1889B4BA69572 /* libPods-chimha-chimhaTests.a */; };
 		BE82E9E4F91A44ABB55F0E91 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9304242F9B7C432D8AC3D2F0 /* Montserrat-Medium.ttf */; };
 		D48D4BCCCF904DE88E9927D6 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 190A194FAA0C4175BECE0037 /* Montserrat-ExtraLight.ttf */; };
 		E51B93605D0641A88609FD4D /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEC5AE88DF114B7E82FB3A52 /* Montserrat-Thin.ttf */; };
@@ -82,8 +82,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = chimha/main.m; sourceTree = "<group>"; };
 		17CF7E7FD0124634A0976AD5 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		190A194FAA0C4175BECE0037 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
-		1C5CEFC5D6A8DA8F24404432 /* Pods-chimha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha.debug.xcconfig"; path = "Target Support Files/Pods-chimha/Pods-chimha.debug.xcconfig"; sourceTree = "<group>"; };
-		297AA655F9C1889B4BA69572 /* libPods-chimha-chimhaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chimha-chimhaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3FB79E721100C10336F6F /* Pods-chimha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha.release.xcconfig"; path = "Target Support Files/Pods-chimha/Pods-chimha.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* chimha-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chimha-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* chimha-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chimha-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3C300FA60C440E98847872 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Black.otf"; path = "../src/assets/fonts/NotoSansKR/NotoSansKR-Black.otf"; sourceTree = "<group>"; };
@@ -94,25 +93,26 @@
 		3D32DD8CC06C45D6B219BEDC /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		49780241485441859D1EE0D0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		5782B40A6D4E4D06ABEF6D67 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
-		5D1A514DF6221952A9E8B895 /* Pods-chimha-chimhaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha-chimhaTests.debug.xcconfig"; path = "Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		60E2E248BD8C9654BB55B25C /* Pods-chimha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha.release.xcconfig"; path = "Target Support Files/Pods-chimha/Pods-chimha.release.xcconfig"; sourceTree = "<group>"; };
 		7A1B843B4B474CCEAB71FBF8 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Bold.otf"; path = "../src/assets/fonts/NotoSansKR/NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
 		7C00D1E65F0F44BCA3B2ABC5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		7CDEDA0C3A8468A8898B9B2D /* Pods-chimha-chimhaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha-chimhaTests.debug.xcconfig"; path = "Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81A2D700970546B9B8D77413 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = chimha/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D2127D994BC485A9161C01C /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		8DF6F5C3EDBC411AB2725D54 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		9304242F9B7C432D8AC3D2F0 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		9C893FF21D3C38D09F11534A /* Pods-chimha-chimhaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha-chimhaTests.release.xcconfig"; path = "Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3AAA94529FA40F2B3CBAE18 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		A42B638CD3802E6D0EA588D7 /* libPods-chimha-chimhaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chimha-chimhaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24692095B9343F6BE0579D0 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		B71970DD0B9044E798691A57 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Medium.otf"; path = "../src/assets/fonts/NotoSansKR/NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		BEC5AE88DF114B7E82FB3A52 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		CA6B6386D8574541A89158AC /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Thin.otf"; path = "../src/assets/fonts/NotoSansKR/NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
-		E35DF7BAE771E2DE91481ADE /* libPods-chimha.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chimha.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF207BDED68E11B5201F6EBA /* Pods-chimha-chimhaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha-chimhaTests.release.xcconfig"; path = "Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E9D3B95C02F943B4804E284B /* TMONBlack.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TMONBlack.ttf; path = ../src/assets/fonts/TMONBlack.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F6F3AFED1C55F6488A027960 /* libPods-chimha.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chimha.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC550464622F4CB6565262D /* Pods-chimha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chimha.debug.xcconfig"; path = "Target Support Files/Pods-chimha/Pods-chimha.debug.xcconfig"; sourceTree = "<group>"; };
 		FF9190B4D9324B73BCB9057F /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9AFD78E7A8E3B5CC00C5345 /* libPods-chimha-chimhaTests.a in Frameworks */,
+				09D5A2CB7881EC545DCD9A60 /* libPods-chimha-chimhaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E2557727BE9F36000EB77E /* libswiftWebKit.tbd in Frameworks */,
-				9CB56DC0DA46BA916A805635 /* libPods-chimha.a in Frameworks */,
+				69A1C40F6C32CD7F978AF469 /* libPods-chimha.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +189,8 @@
 				34E2557627BE9F36000EB77E /* libswiftWebKit.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				E35DF7BAE771E2DE91481ADE /* libPods-chimha.a */,
-				297AA655F9C1889B4BA69572 /* libPods-chimha-chimhaTests.a */,
+				F6F3AFED1C55F6488A027960 /* libPods-chimha.a */,
+				A42B638CD3802E6D0EA588D7 /* libPods-chimha-chimhaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,10 +233,10 @@
 		B93F1F5C10DB2D2240C3286C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C5CEFC5D6A8DA8F24404432 /* Pods-chimha.debug.xcconfig */,
-				60E2E248BD8C9654BB55B25C /* Pods-chimha.release.xcconfig */,
-				5D1A514DF6221952A9E8B895 /* Pods-chimha-chimhaTests.debug.xcconfig */,
-				9C893FF21D3C38D09F11534A /* Pods-chimha-chimhaTests.release.xcconfig */,
+				FAC550464622F4CB6565262D /* Pods-chimha.debug.xcconfig */,
+				23F3FB79E721100C10336F6F /* Pods-chimha.release.xcconfig */,
+				7CDEDA0C3A8468A8898B9B2D /* Pods-chimha-chimhaTests.debug.xcconfig */,
+				CF207BDED68E11B5201F6EBA /* Pods-chimha-chimhaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -280,12 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "chimhaTests" */;
 			buildPhases = (
-				9C600A695857FCA3DD04CAAE /* [CP] Check Pods Manifest.lock */,
+				D85E2409B41BB299B2DB0FBE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				989C0E4E260572B2D3313DAC /* [CP] Copy Pods Resources */,
-				D8E9BDD691B967B9C7DFD66D /* [CP] Embed Pods Frameworks */,
+				8C109B54A21E34AD14D7F5FE /* [CP] Embed Pods Frameworks */,
+				04B28B16CE9E2482055562BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,14 +301,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "chimha" */;
 			buildPhases = (
-				4D2014FC85B8FC6BD18351D1 /* [CP] Check Pods Manifest.lock */,
+				459FCD78A70DA549EAA739D9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CB7E44CB74070A478D1552CE /* [CP] Copy Pods Resources */,
-				5F982CED3774590488FC5063 /* [CP] Embed Pods Frameworks */,
+				14594E701EA44E7F55E479F3 /* [CP] Embed Pods Frameworks */,
+				F14E85B80208B1277B5BCAF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -480,63 +480,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		4D2014FC85B8FC6BD18351D1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-chimha-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F982CED3774590488FC5063 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chimha/Pods-chimha-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chimha/Pods-chimha-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		989C0E4E260572B2D3313DAC /* [CP] Copy Pods Resources */ = {
+		04B28B16CE9E2482055562BA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -586,7 +530,83 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C600A695857FCA3DD04CAAE /* [CP] Check Pods Manifest.lock */ = {
+		14594E701EA44E7F55E479F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chimha/Pods-chimha-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chimha/Pods-chimha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		459FCD78A70DA549EAA739D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chimha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C109B54A21E34AD14D7F5FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D85E2409B41BB299B2DB0FBE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -608,7 +628,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB7E44CB74070A478D1552CE /* [CP] Copy Pods Resources */ = {
+		F14E85B80208B1277B5BCAF3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -656,26 +676,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chimha/Pods-chimha-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D8E9BDD691B967B9C7DFD66D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chimha-chimhaTests/Pods-chimha-chimhaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -771,7 +771,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D1A514DF6221952A9E8B895 /* Pods-chimha-chimhaTests.debug.xcconfig */;
+			baseConfigurationReference = 7CDEDA0C3A8468A8898B9B2D /* Pods-chimha-chimhaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = N3XH5G49F3;
@@ -795,7 +795,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C893FF21D3C38D09F11534A /* Pods-chimha-chimhaTests.release.xcconfig */;
+			baseConfigurationReference = CF207BDED68E11B5201F6EBA /* Pods-chimha-chimhaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -816,7 +816,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5CEFC5D6A8DA8F24404432 /* Pods-chimha.debug.xcconfig */;
+			baseConfigurationReference = FAC550464622F4CB6565262D /* Pods-chimha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -824,6 +824,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3XH5G49F3;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = chimha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -846,13 +847,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60E2E248BD8C9654BB55B25C /* Pods-chimha.release.xcconfig */;
+			baseConfigurationReference = 23F3FB79E721100C10336F6F /* Pods-chimha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = chimha/chimha.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3XH5G49F3;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = chimha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
